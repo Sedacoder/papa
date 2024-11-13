@@ -1,0 +1,96 @@
+/* General reset for margin, padding and box-sizing */
+body{
+    background-image: url('lion.jpg');
+    background-size:cover;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f8fb;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Container for all content */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styles */
+header h1 {
+    color: #ff7f50; /* Coral color for the main greeting */
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.subheading {
+    font-size: 1.5rem;
+    color: #555;
+    font-weight: 300;
+}
+
+/* Message section styling */
+.message p {
+    font-size: 1.5rem;
+    line-height: 1.6;
+    margin-top: 20px;
+    
+
+}
+
+/* Countdown section */
+.countdown {
+    margin-top: 40px;
+    background-color: #f7c0c0;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#countdown {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ff6347; /* Tomato color for emphasis */
+}
+
+/* Footer styling */
+footer {
+    margin-top: 40px;
+    font-size: 1.1rem;
+    color: #888;
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 2rem;
+    }
+    .message p, .countdown h2 {
+        font-size: 1.1rem;
+    }
+}
+/*Button style*/
+button {
+    border-color: black;
+    border-style: dotted;
+    border-radius: 16px;
+    font-size:16px;
+    color: gold;
+    padding:5px 2px;
+    background-color:olivedrab;
+}
